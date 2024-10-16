@@ -17,7 +17,7 @@ function init({ env, logLevel: level }) {
     }),
   );
 
-  if (env !== 'development') {
+  // if (env !== 'development') {
     logger.add(
       new winston.transports.File({
         level,
@@ -25,7 +25,7 @@ function init({ env, logLevel: level }) {
       }),
     );
   }
-}
+// }
 
 function destroy() {
   logger.clear();

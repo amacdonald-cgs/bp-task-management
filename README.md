@@ -16,3 +16,5 @@ Simple application for managing tasks written in Node.js.
 ## API
 
 API documentation is available at [http://localhost:8081/docs](http://localhost:8081/docs)
+
+blog - https://medium.com/@dmytro.misik/writing-a-microservice-using-node-js-a945ca26d7a8
